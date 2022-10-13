@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/logo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Leo Pawel</title>
+		<script src="./bitgo.min.js"></script>
+		<script src="./util.min.js"></script>
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<div style="display: flex; justify-content: center">
+			<div style="display: flex;gap:10px">
+				<label>Mnemonic: <input id="mnemonic" style="width:500px" value="Saucy Delicious Foxy Stiff Farce Direct Steep Fresh Slow Furious Donuts Since"></label>
+				<label>Hardend: <input id="hardend" style="width:100px" value="m/44'/60'/0'/0/"></label>
+				<button>Generate</button>
+			</div>
+		</div>
+		<div style="display: flex; justify-content: center">
+			<div id="root"></div>
+		</div>
+	</body>
+</html>
